@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install flake8 nose pinocchio flask
+           pip install flake8 nose pinocchio flask flask-talisman flask-cors
 
       # ---- Étape Lint (après le checkout) ----
       - name: Lint with flake8
